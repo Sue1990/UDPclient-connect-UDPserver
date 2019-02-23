@@ -29,13 +29,13 @@ server.close()<br>
 
 !!OPEN Terminal!! [打開兩個terminal]<br>
 --第一個terminal--<br>
-cd ~/桌面 「輸入你自己存放的地方」<br>
-pthon udpserver.py<br>
+>>cd ~/桌面 「輸入你自己存放的地方」<br>
+>>pyhon udpserver.py<br>
 
 
 --第二個terminal--<br>
-cd ~/桌面<br>
-python udpclient.py<br>
+>>cd ~/桌面<br>
+>>python udpclient.py<br>
 
 server端顯示的是：<br>
 Received data from client:'Hello server...I sent message for you',('127.0.0.1',48061)<br>
